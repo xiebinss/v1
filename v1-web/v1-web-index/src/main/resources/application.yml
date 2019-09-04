@@ -1,0 +1,12 @@
+dubbo:
+  application:
+    name: index-web
+  registry:
+    protocol: zookeeper
+    address: 120.27.240.138:2181
+
+spring:
+  thymeleaf:
+    cache: false
+server:
+  port: 8083

@@ -1,0 +1,17 @@
+dubbo:
+  application:
+    name: search-web
+  registry:
+    protocol: zookeeper
+    address: 120.27.240.138:2181
+spring:
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 114.55.100.63
+    port: 5672
+    username: xb
+    password: 123
+    virtual-host: /xb
+server:
+  port: 9092
